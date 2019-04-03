@@ -40,6 +40,12 @@ body {
   position: relative;
   font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
 }
+* {
+    cursor: url("../img/mouse1.cur"),auto!important
+}
+:active {
+    cursor: url("../img/mouse2.cur"),auto!important
+}
 h1,
 h2,
 h3,
@@ -402,6 +408,12 @@ pre {
   margin-bottom: 15px;
   position: relative;
   overflow: hidden;
+  border-radius: 4px;
+}
+.post:hover{
+  box-shadow: 0 0 5px rgba(0,0,0,.3);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,.3);
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,.3);
 }
 .post .featured {
   position: absolute;
